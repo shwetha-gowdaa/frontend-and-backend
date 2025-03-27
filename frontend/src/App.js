@@ -31,7 +31,7 @@ class CustomerApp extends Component {
     });
 
     try {
-      const response = await serverS.post('/', { name: userName });
+      const response = await server.post('/', { name: userName });
       const { name, timestamp, customers } = response.data;
       this.setState({ name, timestamp, customers });
     } catch (error) {
