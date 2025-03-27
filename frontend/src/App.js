@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const serverPort = 3001;
-const serverURL = `https://shwethadevops.azurewebsites.net/`;
+const serverURL = `https://testappdevops.azurewebsites.net/`;
 
 class CustomerApp extends Component {
   constructor() {
